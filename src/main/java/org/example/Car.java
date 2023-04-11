@@ -1,17 +1,8 @@
 package org.example;
 
-public class Car {
-
-    String name;
-    double fuelLevel;
-    double mileage;
-    double totalTraveledDistance;
-    double maxSpeed;
-
+//"is-a" relationship (inheritance - mostenire)
+public class Car extends AutoVehicle{
     int doorCount;
-    boolean damaged;
-    String color;
 
-    //has-a relantionship (aggregation)
-    Engine engine;
+
 }
